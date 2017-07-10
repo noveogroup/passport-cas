@@ -1,4 +1,5 @@
-# passport-cas2
+# passport-cas
+
 CAS 2.0 strategy for Passport.js authentication
 
 [Passport](http://passportjs.org/) strategy for authenticating with the 
@@ -11,7 +12,7 @@ Suitable for any application or framework that supports
 
 ## Install
 
-    $ npm install passport-cas2
+    $ npm install @noveogroup/passport-cas
     
 ## Usage
 
@@ -23,7 +24,7 @@ accepts a validated username (and possibly also a user profile) and calls `done`
 providing a user object.
 
 ```javascript
-    var CasStrategy = require('passport-cas2').Strategy;
+    var CasStrategy = require('@noveogroup/passport-cas').Strategy;
     
     passport.use(new CasStrategy({
       casURL: 'https://signin.example.com/cas'

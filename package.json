@@ -1,6 +1,6 @@
 {
-  "name": "passport-cas2",
-  "version": "0.0.8",
+  "name": "@noveogroup/passport-cas",
+  "version": "1.0.0",
   "description": "CAS 2.0 strategy for Passport.js authentication",
   "main": "./lib/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/appdevdesigns/passport-cas.git"
+    "url": "https://github.com/noveogroup/passport-cas.git"
   },
   "keywords": [
     "CAS",
@@ -17,7 +17,7 @@
   "author": "Joshua Chan",
   "license": "MIT",
   "dependencies": {
-    "cas": "git://github.com/joshchan/node-cas",
+    "cas": "0.0.3",
     "passport-strategy": "^1.0.0"
   }
 }
