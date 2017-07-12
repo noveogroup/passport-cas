@@ -1,6 +1,6 @@
 {
   "name": "@noveogroup/passport-cas",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "CAS 2.0 strategy for Passport.js authentication",
   "main": "./lib/index.js",
   "scripts": {
